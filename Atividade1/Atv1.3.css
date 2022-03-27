@@ -1,0 +1,31 @@
+
+        #cinza_a {
+            background-color: grey;
+            height: 500px;
+            width: 500px;
+        }
+
+        #dred_b {
+            background-color:darkred;
+            height: 250px;
+            width: 250px;
+        }
+
+        #bluey_c {
+            color: blue;
+            background-color: yellow;
+            font-size: 35;
+            font-family: cursive;
+            font-weight: bold;
+        }
+        #black_a {
+            height: 250px;
+            width: 250px;
+            background-color: black;
+        }
+        #cinz2_d {
+            background-color: #ccc6c6;
+            width: 75%;
+            height: 50%;
+        }
+    
