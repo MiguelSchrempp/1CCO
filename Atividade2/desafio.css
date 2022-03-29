@@ -1,0 +1,77 @@
+#marrom_a {
+    background-color: rgb(209, 114, 114);
+    height: 250px;
+    width: 75%;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#branco_fa {
+    background-color: white;
+    color: blue;
+    height: 60%;
+    width: 60%;
+    margin-top: 45px;
+    justify-content: center;
+    border: 8px solid darkblue;
+}
+
+#texto_fa {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 60px 0 0 30px;
+
+}
+
+#barra_a {
+    background-color: darkblue;
+    height: 25px;
+    width: 70%;
+    margin-left: 250px;
+}
+
+#barra_ro {
+    background-color: rgba(214, 11, 255, 0.438);
+    height: 20px;
+    width: 40%;
+    margin-left: 500px;
+}
+
+#barra_ver {
+    background-color: darkgreen;
+    height: 25px;
+    width: 60%;
+    margin-left: 350px;
+}
+
+#barra_amar {
+    background-color: rgb(255, 231, 11);
+    height: 20px;
+    width: 50%;
+    margin-left: 420px;
+}
+
+#barra_vermelha {
+    float: left;
+    background-color: red;
+    height: 25px;
+    width: 30%;
+    margin-left: 200px; 
+}
+
+#barra_cian {
+    float: left;
+    background-color: cyan;
+    height: 25px;
+    width: 15%;
+    margin-left: 0px; 
+}
+
+#barra_verdao {
+    float: left;
+    background-color: lightgreen;
+    height: 25px;
+    width: 30%;
+    margin-left: 0px; 
+}
