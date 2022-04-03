@@ -1,0 +1,135 @@
+body{
+        margin:0;
+        background-color:black;
+        font-family:monospace;
+}
+
+.header{
+        border-bottom: 3px solid aqua;
+}
+
+.container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+}
+
+.header .container{
+        justify-content: space-between;
+
+}
+
+.header ul .aqui{
+        font-weight: 800;
+        color:crimson;
+}
+
+ul{
+        color:orange;
+}
+
+.titulo {
+    color:aqua;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar{
+    color : lightcoral ;
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner {
+    background-image: url("bg-jelly-fish-para_outras_pags.png");
+    height:500px;
+    color: #fff;
+    display: flex;
+}
+.banner .container p span{
+    font-weight: 900;
+}
+.banner .container{
+    font-size:36px;
+    justify-content: center;
+}
+.banner .container p{
+    width: 10%;
+}
+.social {
+    background-color: beige;
+    display: flex;
+}
+.social .container .boxes .box img{
+    width:200px;
+}
+.social .container .boxes{
+    display:flex;
+}
+.box img{
+    width: 170px;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: #32b9cd;
+    height: 150px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin-top: 200px;
+}
+.footer .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #e3b062;
+}
+.banner .container .card{
+    background-color: beige;
+    height: 550px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.card h1{
+    font-size: 30px;
+}
+.card h4{
+    font-size: 16px;
+}
+.card input{
+    border: 2px solid palevioletred;
+    padding: 5px;
+}
+.card button{
+    background-color: palevioletred;
+    margin-top: 30px;
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: none;
+    font-family: monospace;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 50px;
+}
